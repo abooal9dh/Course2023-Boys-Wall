@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu+Condensed&display=swap");
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.bg {
+  background-color: #010;
+  width: fit-content;
+}
+
+.mazen-ibrahim {
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0 2em;
+}
+
+.mazen {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin: 10px 0;
+}
