@@ -44,3 +44,24 @@
         width: 100%;
     }
 }
+@media (max-width:768px){
+
+    .abdullah511 h2{
+        font-size: 2rem;
+    }
+
+}
+@media (max-width:478px){
+
+    .abdullah511 h2{
+        font-size: 1.8rem;
+    }
+
+}
+@media (max-width:430px){
+
+    .abdullah511 h2{
+        font-size: 1rem;
+    }
+
+}
