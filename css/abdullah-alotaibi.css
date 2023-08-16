@@ -1,0 +1,46 @@
+:root{
+    --bg-color: #081b29;
+    --main-color: #00abf0;
+
+}
+
+
+
+.abdullah511{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: var(--bg-color);
+}
+.abdullah511 h2{
+    margin: 1rem;
+    position: relative;
+    font-size: 3rem;
+    color: var(--bg-color);
+    -webkit-text-stroke: 2px var(--bg-color);
+    text-transform: uppercase;
+}
+.abdullah511 h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: var(--main-color);
+    -webkit-text-stroke: 0px var(--bg-color);
+    border-right: 2px solid var(--main-color);
+    overflow: hidden;
+    animation: abdullah 6s linear infinite;
+}
+@keyframes abdullah{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
